@@ -1,0 +1,11 @@
+ogrenci_adi = input("öğrenci adı: ")
+ogrenci_soyadi = input("öğrenci soyadı: ")
+ogrenci_sinifi = input("öğrenci sınıfı: ")
+dogru_sayisi = float(input("doğru cevap sayısını girin: "))
+yanlis_sayisi = float(input("yanlış cevap sayısını girin: "))
+netpuan = (dogru_sayisi - (yanlis_sayisi/4))
+totalpuan = netpuan * 2
+print("Ad: " + ogrenci_adi)
+print("Soyad: " + ogrenci_soyadi)
+print("Öğrencinin sınıfı: " + ogrenci_sinifi)
+print("öğrenci total puanı:" + str(totalpuan))
